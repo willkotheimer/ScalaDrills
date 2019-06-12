@@ -6,7 +6,7 @@ object functions {
 		def add(x : Int, y : Int) : Int = {
 			return x +y;
 		}
-
+		def square(x: Int) = x*x;
 	}
 
 	def add(x : Int, y : Int) : Int = {
@@ -29,6 +29,7 @@ object functions {
 		println(multiply(2,3));
 		println(divide(2,3));
 		println(Math.add(5,6));
+		println(Math square 5);
 
 	}
 
